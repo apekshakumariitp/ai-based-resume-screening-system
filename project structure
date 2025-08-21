@@ -1,0 +1,29 @@
+ai-resume-screening/
+├── backend/
+│   ├── pom.xml
+│   ├── src/main/java/com/example/ai/
+│   │   ├── AiResumeScreeningApplication.java
+│   │   ├── controller/
+│   │   │   └── ResumeController.java
+│   │   ├── dto/
+│   │   │   ├── KeywordRequest.java
+│   │   │   └── UploadResponse.java
+│   │   ├── entity/
+│   │   │   ├── JobKeyword.java
+│   │   │   └── Resume.java
+│   │   ├── repo/
+│   │   │   ├── JobKeywordRepository.java
+│   │   │   └── ResumeRepository.java
+│   │   └── service/
+│   │       └── NlpScoringService.java
+│   └── src/main/resources/
+│       └── application.properties
+├── frontend/
+│   ├── package.json
+│   └── src/app/
+│       ├── api.ts
+│       ├── app.component.html
+│       ├── app.component.ts
+│       └── app.module.ts
+├── docker-compose.yml
+└── README.md
